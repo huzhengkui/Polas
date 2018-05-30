@@ -36,10 +36,7 @@
     "npm-link-local": "^1.1.0",
     "npm-run-all": "^4.0.2",
     "onchange": "^3.2.1",
-    "remix-core": "latest",
-    "remix-lib": "latest",
-    "remix-solidity": "latest",
-    "remixd": "git+https://github.com/ethereum/remixd.git",
+    "remixd": "git+https://github.com/huzhengkui/buffly.git",
     "request": "^2.83.0",
     "rimraf": "^2.6.1",
     "selenium-standalone": "^6.0.1",
@@ -56,11 +53,11 @@
   },
   "dependencies": {
     "http-server": "0.9.0",
-    "remixd": "git+https://github.com/ethereum/remixd.git"
+    "remixd": "git+https://github.com/huzhengkui/buffly.git"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/remix-ide.git"
+    "url": "git+https://github.com/huzhengkui/Polas.git"
   },
   "keywords": [
     "ethereum",
@@ -142,7 +139,7 @@
   },
   "scripts": {
     "setupremix": "npm run pullremix && npm run linkremixcore && npm run linkremixlib && npm run linkremixsolidity;",
-    "pullremix": "git clone https://github.com/ethereum/remix",
+    "pullremix": "git clone https://github.com/huzhengkui/Moscow",
     "linkremixcore": "cd node_modules && rm -rf remix-core && ln -s ../remix/remix-core remix-core && cd ..",
     "linkremixlib": "cd node_modules && rm -rf remix-lib && ln -s ../remix/remix-lib remix-lib && cd ..",
     "linkremixsolidity": "cd node_modules && rm -rf remix-solidity && ln -s ../remix/remix-solidity remix-solidity && cd ..",
