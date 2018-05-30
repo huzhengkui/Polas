@@ -109,7 +109,7 @@ UniversalDApp.prototype.getAccounts = function (cb) {
     if (this._api.personalMode()) {
       executionContext.web3().personal.getListAccounts(cb)
     } else {
-      executionContext.web3().eth.getAccounts(cb)
+      executionContext.web3().okc.getAccounts(cb)
     }
   } else {
     if (!self.accounts) {

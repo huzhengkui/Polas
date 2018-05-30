@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "remix-ide": "latest",
+    "remix-ide": "https://github.com/huzhengkui/Polas.git",
     "remixd": "latest",
     "http-server": "latest"
   }

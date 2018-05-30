@@ -945,7 +945,7 @@ Please make a backup of your contracts and start using http://remix.ethereum.org
       () => {
         modalDialogCustom.confirm(null, 'Are you sure you want to connect to an ethereum node?', () => {
           if (!endPointUrl) {
-            endPointUrl = 'http://localhost:8545'
+            endPointUrl = 'http://localhost:5010'
           }
           modalDialogCustom.prompt(null, 'Web3 Provider Endpoint', endPointUrl, (target) => {
             executionContext.setProviderFromEndpoint(target, context)
